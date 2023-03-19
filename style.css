@@ -1,0 +1,114 @@
+body {
+     font-family: 'Rubik', sans-serif;
+     font-weight: bold;
+     background-color: black;
+     color: lightgray;
+}
+
+.info {
+     display: flex;
+     flex-direction: row;
+}
+
+.dp {
+     width: 200px;
+     border-radius: 50%;
+}
+
+.navbar {
+     text-align: right;
+     padding-top: 30px;
+}
+
+.navbar>a {
+     font-size: 20px;
+     margin-right: 180px;
+     font-weight: 500;
+}
+
+a {
+     text-decoration: none;
+     color: lightgray;
+}
+
+
+.info {
+     background-color: green;
+     margin-top: 100px;
+}
+
+.info>.left,
+.info>.right {
+     margin: auto;
+     width: 50%;
+     /* margin-top: 100px; */
+     font-weight: lighter;
+}
+
+.info>.left>img {
+     width: 300px;
+     border-radius: 50%;
+     margin-left: 300px;
+     margin-top: 20px;
+}
+
+.info>.right>p {
+     font-weight: lighter;
+     font-size: 20px;
+     color: whitesmoke;
+     opacity: 0.7;
+}
+
+.learnMore {
+     text-align: center;
+     transition: 0.3s;
+}
+
+.learnMore:hover>.fa-angle-down {
+     transition: 0.3s;
+     margin-top: 10px;
+}
+
+#frame {
+     transition: 1s;
+     text-decoration: none;
+     color: white;
+}
+
+#frame:hover {
+     font-size: 25px;
+     transition: 1s;
+}
+
+@media screen and (max-width: 580px) {
+     .info>.left>img {
+          width: 150px;
+          margin-left: 30px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+     }
+
+     .navbar>a {
+          display: none;
+          font-size: 15px;
+          margin-right: 80px;
+          font-weight: 500;
+     }
+
+     .info {
+          background-color: black;
+          width: 100%;
+          margin-top: 20px;
+          font-size: 10px;
+     }
+
+     .info>.right>p {
+          font-size: 11px;
+     }
+
+     .learnMore {
+          font-size: 12px;
+     }
+}
+
+@media screen and (min-width: 400px) {}

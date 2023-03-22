@@ -11,31 +11,82 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/ea8a354b73.js" crossorigin="anonymous"></script>
 
+    <script type="text/javascript" src="./main.js"></script>
     <link rel="stylesheet" href="./style.css"> 
     </head>
 <body>
+    
     <!-- <div>
         <a id="frame" href="https://github.com/Saravanakumar-v">In Progress ⚒️</a>
     </div> -->
+    
     <nav class="navbar">
         <a href="#">About</a>
     </nav>
     <main class="info">
         <div class="left">
-            <img src="dp.jpg" alt="profileDp">
+            <!-- <img src="dp.jpg" alt="profileDp"> -->
         </div>
         <div class="right">
             <h1>Hi,👋 <br>I'm Saravana Kumar </h1>
-            <p>Software Engineer,&nbsp; Web Developer</p>
-            <p>I build user interfaces & develops applications.</p>
+            <!-- <p>I build user interfaces & develops applications.</p> -->
         </div>
         </div>
     </main>
-    <section>
-    </section>
-    <section >
-        <a href="#"><p class="learnMore">Discover more about my work and experience<br><br><span class="fa fa-angle-down"></span></p></a>
-    </section>
+    <!-- <section>    
+        <div class="contact">
+            <button></button>
+            <button class="contact-mail">Contact&nbsp;&nbsp;<i class="fa fa-envelope"></i></button>
+        </div>
+    </section> -->
+    <div class="tech-stack">
+        <p>Tech-stack</p><p></p>
+        <div class="icon">
+            <i class="fab fa-html5"></i>
+            <i class="fab fa-css3-alt"></i>
+            <i class="fab fa-bootstrap"></i>
+            <i class="fab fa-js-square"></i>
+            <i class="fab fa-git-alt"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-python"></i>
+        </div> 
+    </div>
+    <hr>
+    <div class="sections">
+            <a onclick="displayWork()" class="wrk" id="nav1" href="#work">Projects</a>
+            <a onclick="displayExperience()" class="exp" id="nav2" href="#experience">Experience</a>
+            <a onclick="displayContact()" class="cnt" id="nav3" href="#contact">Contact</a>    
+    </div>
+    <div id="work">
+        <div class="bx">
+            <h3>Spote5 Music Recommendation<a href="https://github.com/Saravanakumar-v/Spote5-Music-Recommendation" target="_blank"><i class="fab fa-github"></i></a></h3>
+            <p>Music Recommendation System based on the user selected music in Queue (Content-Based Recommendation). For the recommendation the application uses K-means Clustering to form Cluster of song data based on song genre & info.
+                <!-- <li>Simple Login/Register with Browser localStorage (Recommended : try using SQL database for to implement advanced user feature).</li> -->
+                <!-- <li>song_cluster from the K-mean Clustering is saved using (pickle) library.</li> -->
+            </p>
+            <div class="tech-used">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js-square"></i>
+                <i class="fab fa-python"></i>
+            </div>
+        </div>
+    </div>
+    <div id="experience" class="experience">
+        <div class="bx">
+            <p>Do excepteur ut exercitation aliqua nulla quis. Exercitation officia sint nisi ut excepteur ex irure ea fugiat. Commodo sit aliqua sint commodo. Eu eu Lorem minim sunt qui.Dolor id ea ad laboris sit magna ipsum sunt non dolore non consectetur cupidatat. Esse exercitation pariatur occaecat ea minim nostrud dolor veniam ea culpa. Nulla pariatur reprehenderit adipisicing consequat aliquip consectetur adipisicing tempor. Eiusmod nisi ut ullamco reprehenderit. Nisi voluptate qui nulla elit incididunt voluptate exercitation fugiat. Fugiat ex ipsum ex dolore minim in anim ut cillum. Minim in cillum consectetur labore.</p>
+        </div>
+    </div>
+    <div id="contact" class="contact">
+        
+    </div>
+    <footer>
+        <div class="copyright">
+            <a href="#"><i class="fab fa-linkedin-square"></i></a>
+            <p>Saravana Kumar <i class="fas fa-copyright"></i> 2023</p>
+        </div>
+    </footer>
 </body>
 </html>

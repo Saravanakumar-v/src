@@ -95,7 +95,7 @@ a {
      transition: 1s;
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 800px) {
      .info>.left>img {
           width: 150px;
           margin-left: 30px;

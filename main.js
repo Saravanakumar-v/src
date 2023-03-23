@@ -8,7 +8,7 @@ function displayExperience() {
     var nav3 = document.getElementById("nav3");
     
     nav1.style.borderTop = "none";
-    nav2.style.borderTop = "solid";
+    nav2.style.borderTop = "5px solid";
     nav2.style.paddingTop = "10px";
     nav3.style.borderTop = "none";
 
@@ -26,7 +26,7 @@ function displayWork() {
     var nav2 = document.getElementById("nav2");
     var nav3 = document.getElementById("nav3");
     
-    nav1.style.borderTop = "solid";
+    nav1.style.borderTop = "5px solid";
     nav1.style.paddingTop = "10px";
     nav2.style.borderTop = "none";
     nav3.style.borderTop = "none";
@@ -47,7 +47,7 @@ function displayContact() {
     
     nav1.style.borderTop = "none";
     nav2.style.borderTop = "none";
-    nav3.style.borderTop = "solid";
+    nav3.style.borderTop = "5px solid";
     nav3.style.paddingTop = "10px";
     
     wrk.style.display = "none"

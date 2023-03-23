@@ -70,6 +70,7 @@ a {
 }
  
 .icon > i {
+     flex-wrap: wrap;
      font-size: 40px;
      margin-right: 20px;
      color: white;
@@ -229,13 +230,15 @@ a {
      }
 
      .copyright {
-          position:fixed;
-          bottom: 0px;
+          position: absolute;
           width: 100%;
-          bottom: 0px;
           text-align: center;
           background-color: white;
           color: black;
+     }
+
+     .ct {
+          display: none;
      }
 
      .contact {
@@ -292,24 +295,11 @@ a {
           transition: 0.2s ease;
      }
 
-     .ct {
-          display: none;
-     }
-
-     .contact > .button:hover {
-          background-color: black;
-          color: white;
-          transition: 0.3s ease;
-          border: 1px solid white;
-          transform: scale(1.1);
-     }
-
      .copyright > a > i {
           margin-top: 10px;
           font-size: 30px;
           color: black;
      }
-
 
      @keyframes invalid {
           0% {

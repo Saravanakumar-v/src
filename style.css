@@ -96,6 +96,11 @@ a {
 @media screen and (min-width: 320px) and (max-width: 768px) {
      body {
           overflow: scroll;
+          scroll-behavior: smooth;
+     }
+
+     .info > .right {
+          margin-right: 20px;
      }
 
      *::-webkit-scrollbar {
@@ -122,9 +127,10 @@ a {
      }
 
      .info {
+          overflow-x: scroll;
           background-color: black;
           width: 100%;
-          margin-top: 20px;
+          margin-top: 60px;
           font-size: 10px;
      }
 
@@ -142,7 +148,18 @@ a {
      }
 
      .icon {
+          margin-top: 25px;
           margin-left: 20px;
+          overflow-y: scroll;
+          display: flex;
+     }
+
+     .icon::-webkit-scrollbar-thumb {
+          display: none;
+     }
+
+     .icon::-webkit-scrollbar-track {
+          display: none;
      }
 
      .icon > i {
@@ -230,11 +247,10 @@ a {
      }
 
      .copyright {
-          position: absolute;
           width: 100%;
+          font-size: 13px;
           text-align: center;
-          background-color: white;
-          color: black;
+          color: white;
      }
 
      .ct {
@@ -296,9 +312,9 @@ a {
      }
 
      .copyright > a > i {
-          margin-top: 10px;
-          font-size: 30px;
-          color: black;
+          margin-top: 5px;
+          color: white                                                          ;
+          font-size: 20px;
      }
 
      @keyframes invalid {
@@ -324,3 +340,4 @@ a {
           transition: 0.3s ease;
      }
 }
+

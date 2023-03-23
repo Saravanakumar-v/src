@@ -292,6 +292,10 @@ a {
           transition: 0.2s ease;
      }
 
+     .ct {
+          display: none;
+     }
+
      .contact > .button:hover {
           background-color: black;
           color: white;
